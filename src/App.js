@@ -9,7 +9,7 @@ import { Provider, useDispatch, useSelector } from 'react-redux';
 function Home(){
   return(
     <div>
-      <h2>HOME4444</h2>
+      <h2>HOME4422</h2>
       HOME is...
     </div>
   )
