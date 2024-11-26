@@ -123,7 +123,7 @@ function Topic(props){
         ev.preventDefault();
         dispatch({type : 'topicSlice/delete', topicId : topic_id});
         navigate('/topics');
-      }}>삭1제</StyledButton>
+      }}>삭제</StyledButton>
     </div>
   </>)
 }
