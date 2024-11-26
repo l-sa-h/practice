@@ -1,0 +1,111 @@
+a.create {
+  display: flex; /* flexbox로 설정 */
+  justify-content: center; /* 수평 가운데 정렬 */
+  align-items: center; /* 수직 가운데 정렬 */
+  padding: 5px 10px; /* 내부 여백 */
+  margin: 0px 10%;
+  background-color: #a8d5ba; /* 파스텔톤 배경색 */
+  color: #ffffff; /* 글자색 */
+  text-decoration: none; /* 밑줄 제거 */
+  border-radius: 20px; /* 모서리 둥글게 */
+  font-size: 15px; /* 글자 크기 */
+  transition: background-color 0.3s; /* 배경색 전환 효과 */
+  margin-block: 3px;
+}
+
+a.update {
+  display: flex; /* flexbox로 설정 */
+  justify-content: center; /* 수평 가운데 정렬 */
+  align-items: center; /* 수직 가운데 정렬 */
+  padding: 5px 10px; /* 내부 여백 */
+  margin: 0px 10%;
+  background-color: #c3a8d5; /* 파스텔톤 배경색 */
+  color: #ffffff; /* 글자색 */
+  text-decoration: none; /* 밑줄 제거 */
+  border-radius: 20px; /* 모서리 둥글게 */
+  font-size: 15px; /* 글자 크기 */
+  transition: background-color 0.3s; /* 배경색 전환 효과 */
+  margin-block: 3px;
+}
+
+a.delete {
+  display: flex; /* flexbox로 설정 */
+  justify-content: center; /* 수평 가운데 정렬 */
+  align-items: center; /* 수직 가운데 정렬 */
+  padding: 5px 10px; /* 내부 여백 */
+  margin: 0px 10%;
+  background-color: #921414; /* 파스텔톤 배경색 */
+  color: #ffffff; /* 글자색 */
+  text-decoration: none; /* 밑줄 제거 */
+  border-radius: 20px; /* 모서리 둥글게 */
+  font-size: 15px; /* 글자 크기 */
+  transition: background-color 0.3s; /* 배경색 전환 효과 */
+  margin-block: 3px;
+}
+
+a.create:hover {
+  background-color: #8fc1a9; /* 호버 시 배경색 변화 */
+}
+a.update:hover {
+  background-color: #9f7ab8; /* 호버 시 배경색 변화 */
+}
+
+.forms{
+  border: #8fc1a9 1px solid;
+  border-radius: 10px;
+  display: flex; /* flexbox로 설정 */
+  justify-content: center; /* 수평 가운데 정렬 */
+  align-items: center; /* 수직 가운데 정렬 */
+  margin-bottom: 10px;
+}
+
+.updatef{
+  border: #d5a8d1 1px solid;
+}
+
+.div-border{
+  border: #8fc1a9 1px solid;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  padding-bottom: 30px;
+
+}
+.div-border h2{
+  /* margin: 5px 5px; */
+}
+
+p{display: grid;}
+
+.mainList{
+  list-style-type: none; /* 기본 리스트 스타일 제거 */
+  padding: 14px; /* 패딩 제거 */
+}
+
+.mainList li a {
+  display: inline-block; /* 블록처럼 보이게 하기 위해 */
+  padding: 10px 20px; /* 여백 추가 */
+  background-color: rgb(255, 255, 82); /* 배경색 노란색 */
+  color: black; /* 글자색 검정색 */
+  text-decoration: none; /* 링크의 밑줄 제거 */
+  border-radius: 5px; /* 모서리 둥글게 */
+  transition: background-color 0.3s, border-color 0.3s; /* 배경색과 보더 색상 전환 효과 */
+  font-weight: bold; /* 글자 굵게 */
+  margin-block: 3px; /* 위아래 여백 */
+  width: 100px; /* 고정 너비 설정 */
+  text-align: center; /* 글자 중앙 정렬 */
+  border: 5px solid transparent; /* 초기 보더를 투명으로 설정 */
+  box-sizing: border-box; /* 보더와 패딩을 포함 */
+  color: #3b3b3bd8;
+}
+
+.mainList li a:hover {
+  background-color: rgb(213, 228, 0); /* 호버 시 색상 변경 */
+}
+
+.mainList li a.active {
+  border: #93ec05 5px solid; /* 활성 상태에서 보더 색상과 두께 설정 */
+}
+
+.test{
+  background-color: #640a2d;
+}
