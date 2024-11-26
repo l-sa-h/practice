@@ -1,10 +1,10 @@
 import { configureStore, createSlice } from "@reduxjs/toolkit";
 
 const oj=[
-    {id : 1, title : '1html', body:'html is ...'},
-    {id : 2, title : '2css', body:'css is ...'},
-    {id : 3, title : '3js', body:'js is ...'},
-    {id : 4, title : '4react', body:'react is ...'},
+    {id : 1, title : 'html', body:'html is ...'},
+    {id : 2, title : 'css', body:'css is ...'},
+    {id : 3, title : 'js', body:'js is ...'},
+    {id : 4, title : 'react', body:'react is ...'},
   ];
 
 
